@@ -4,7 +4,7 @@ This is the official implementation of ["Long-Term Rhythmic Video Soundtracker"]
 
 Jiashuo Yu, Yaohui Wang, Xinyuan Chen, Xiao Sun, and Yu Qiao.  
 
-![intro](/imgs/loris.png =200x200)  
+![intro](/imgs/loris.png)  
 
 ## Introduction  
 
