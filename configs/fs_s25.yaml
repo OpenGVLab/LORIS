@@ -1,0 +1,66 @@
+name: loris_fs_s25
+log_path: './logs/loris_fs_s25/'
+ckpt_name: loss_min.pt
+sample_save_path: './OUTPUT/loris_fs_s25/samples_'
+model_save_path: './OUTPUT/loris_fs_s25/checkpoints/'
+audio_train_path: './data/fs/fs_audio_s25_train_segment.txt'
+video_train_path: './data/fs/fs_i3d_s25_train_segment.txt'
+motion_train_path: './data/fs/fs_pose2d_s25_train_segment.txt'
+genre_train_path: None
+audio_test_path: './data/fs/fs_audio_s25_test_segment.txt'
+video_test_path: './data/fs/fs_i3d_s25_test_segment.txt'
+motion_test_path: './data/fs/fs_pose2d_s25_test_segment.txt'
+genre_test_path: None
+data_root: 'yourpath/dataset/fs/'
+autoencoder_path: './audio_diffusion_pytorch/ckpt/audio_1136_720k_sd.pt'
+log_interval: 1
+save_interval: 50
+batch_size: 8
+base_lr: 3.0e-3
+backbone_base_lr: 3.0e-6
+max_epochs: 250
+betas: !!python/tuple [0.9, 0.96]
+weight_decay: 4.5e-2
+num_workers: 0
+
+model:
+  autoencoder_type: 'cond_diffusion'
+  use_pretrain: True
+  motion_context_length: 400
+  video_context_length: 50
+  condition_dim: 1024
+  motion_dim: 1024
+  video_dim: 1024
+  sample_rate: 22050
+  segment_length: 25
+  diffusion_length: 19
+  diffusion_step: 50
+  embedding_scale: 20
+  rhythm_config:
+    nbins: 10
+    pre_avg: 2
+    post_avg: 2
+    pre_max: 3
+    post_max: 3
+    threshold: 0.1
+  genre_config:
+    use_genre: False
+    num_embed: 10
+    embed_dim: 1024
+    
+lr_scheduler:
+  step_iteration: 1
+  factor: 0.5
+  patience: 60000
+  min_lr: 1.0e-6
+  threshold: 1.0e-1
+  threshold_mode: rel
+  warmup_lr: 2.0e-4 # the lr to be touched after warmup
+  warmup: 1000
+
+clip_grad_norm:
+  target: d2m.engine.clip_grad_norm.ClipGradNorm
+  params:
+    start_iteration: 0
+    end_iteration: 5000
+    max_norm: 0.5
