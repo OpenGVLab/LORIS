@@ -18,11 +18,7 @@ We consider the problem of generating musical soundtracks in sync with rhythmic 
 
 ## Training  
 
-bash scripts/loris_{subset}_s{length}.sh  
-
 ## Inference  
-
-bash scripts/infer_{subset}_s{length}.sh  
 
 ## Dataset  
 
