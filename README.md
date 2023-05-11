@@ -18,11 +18,11 @@ We present Long-Term Rhythmic Video Soundtracker (LORIS), a novel framework to s
 
 ## Training  
 
-bash scripts/loris_{subset}_s{length}.sh  
+`bash scripts/loris_{subset}_s{length}.sh`  
 
 ## Inference  
 
-bash scripts/infer_{subset}_s{length}.sh  
+`bash scripts/infer_{subset}_s{length}.sh`  
 
 ## Dataset  
 
