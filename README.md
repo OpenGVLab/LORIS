@@ -2,13 +2,17 @@
 
 # LORIS
 
-This is the official implementation of ["Long-Term Rhythmic Video Soundtracker"](https://arxiv.org/abs/2305.01319), ICML2023. 
+This is the official implementation of "Long-Term Rhythmic Video Soundtracker", ICML2023. 
 
 Jiashuo Yu, Yaohui Wang, Xinyuan Chen, Xiao Sun, and Yu Qiao.  
 
+OpenGVLab, Shanghai Aritificial Intelligence Laboratory  
+
+[Arxiv](https://arxiv.org/abs/2305.01319) | [Project Page](https://justinyuu.github.io/LORIS/)  
+
 ## Introduction  
 
-We present Long-Term Rhythmic Video Soundtracker (LORIS), a novel framework to synthesize long-term conditional waveforms in sync with visual cues. Specifically, our framework consists of a latent conditional diffusion probabilistic model to perform waveform synthesis. Furthermore, a series of context-aware conditioning encoders are proposed to take temporal information into consideration for a long-term generation. Notably, we extend our model's applicability from dances to multiple sports scenarios such as floor exercise and figure skating. To perform comprehensive evaluations, we establish a benchmark for rhythmic video soundtracks including the pre-processed dataset, improved evaluation metrics, and robust generative baselines. Extensive experiments show that our model generates long-term soundtracks with state-of-the-art musical quality and rhythmic correspondence.  
+We present Long-Term Rhythmic Video Soundtracker (LORIS), a novel framework to synthesize long-term conditional waveforms in sync with visual cues. Our framework consists of a latent conditional diffusion probabilistic model to perform waveform synthesis. Furthermore, a series of context-aware conditioning encoders are proposed to take temporal information into consideration for a long-term generation. We also extend our model's applicability from dances to multiple sports scenarios such as floor exercise and figure skating. To perform comprehensive evaluations, we establish a benchmark for rhythmic video soundtracks including the pre-processed dataset, improved evaluation metrics, and robust generative baselines.    
 
 ![intro](/imgs/pipeline.png)  
 
