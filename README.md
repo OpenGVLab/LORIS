@@ -1,10 +1,10 @@
+<img src="https://raw.githubusercontent.com/OpenGVLab/LORIS/main/imgs/logo.png" align="center" width="896" height="224"> 
+
 # LORIS
 
 This is the official implementation of ["Long-Term Rhythmic Video Soundtracker"](https://arxiv.org/abs/2305.01319), ICML2023. 
 
 Jiashuo Yu, Yaohui Wang, Xinyuan Chen, Xiao Sun, and Yu Qiao.  
-
-<img src="https://raw.githubusercontent.com/OpenGVLab/LORIS/main/imgs/loris.png" width="224" height="224"> 
 
 ## Introduction  
 
