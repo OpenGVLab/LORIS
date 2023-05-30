@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/OpenGVLab/LORIS/main/imgs/logo.png" align="center" width="896" height="224"> 
+<img src="https://raw.githubusercontent.com/OpenGVLab/LORIS/main/imgs/logo.png" align="center"> 
 
 # LORIS
 
