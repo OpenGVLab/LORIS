@@ -6,7 +6,7 @@ This is the official implementation of "Long-Term Rhythmic Video Soundtracker", 
 
 Jiashuo Yu, Yaohui Wang, Xinyuan Chen, Xiao Sun, and Yu Qiao.  
 
-OpenGVLab, Shanghai Aritificial Intelligence Laboratory  
+OpenGVLab, Shanghai Artificial Intelligence Laboratory  
 
 [Arxiv](https://arxiv.org/abs/2305.01319) | [Project Page](https://justinyuu.github.io/LORIS/)  
 
