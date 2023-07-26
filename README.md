@@ -33,7 +33,7 @@ We present Long-Term Rhythmic Video Soundtracker (LORIS), a novel framework to s
 Dataset is available in [huggingface](https://huggingface.co/datasets/awojustin/LORIS).  
 
     from datasets import load_dataset
-    dataset = load_dataset("awojustin/LORIS")
+    dataset = load_dataset("OpenGVLab/LORIS")
 
 ## Citation  
 
