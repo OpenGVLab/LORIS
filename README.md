@@ -39,7 +39,11 @@ Dataset is available in [huggingface](https://huggingface.co/datasets/awojustin/
 
 We provide the pre-trained checkpoints and backbone audio diffusion model as follow:  
 
-[Audio-diffusion-pytorch-v0.0.43](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/loris/audio_1136_720k.pt), [Dance 25 seconds](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/loris/loris_dance25_epoch100.pt), [Figure Skating 25 seconds](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/loris/loris_fs25_loss_min.pt), [Floor Exercise 25 seconds](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/loris/loris_fe25_epoch200.pt), [Floor Exercise 50 seconds](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/loris/loris_fe50_epoch250.pt)  
+[Audio-diffusion-pytorch-v0.0.43](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/loris/audio_1136_720k.pt),  
+[Dance 25 seconds](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/loris/loris_dance25_epoch100.pt),  
+[Figure Skating 25 seconds](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/loris/loris_fs25_loss_min.pt),  
+[Floor Exercise 25 seconds](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/loris/loris_fe25_epoch200.pt),  
+[Floor Exercise 50 seconds](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/loris/loris_fe50_epoch250.pt)  
 
 It should be noted that these checkpoints must only be used for research purposes.
 
